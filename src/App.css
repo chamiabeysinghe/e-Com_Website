@@ -1,0 +1,40 @@
+nav {
+  padding: 16px 12px;
+
+}
+
+nav a {
+  margin-right: 16px;
+  text-decoration: none;
+
+}
+
+nav a.active {
+  font-weight: bold;
+ }
+
+.products {
+  transition: all 0.5s ease;
+}
+
+.products:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.lead{
+  text-align:justify;  
+  text-justify:inter-word;
+}
+
+.product img {
+  transition: all 0.5s ease;
+}
+
+.product img:hover {
+  transform: scale(1.1);
+}
+
+.footer{
+  position: fixed;
+
+}
